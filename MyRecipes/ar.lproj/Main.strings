@@ -1,0 +1,48 @@
+
+/* Class = "UINavigationItem"; title = "وصفاتي"; ObjectID = "2WA-9l-lfd"; */
+"2WA-9l-lfd.title" = "وصفاتي";
+
+/* Class = "UIButton"; configuration.title = " تعديل"; ObjectID = "AqX-a7-899"; */
+"AqX-a7-899.configuration.title" = " تعديل";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "AqX-a7-899"; */
+"AqX-a7-899.normalTitle" = "Button";
+
+/* Class = "UITabBarItem"; title = "وصفاتي"; ObjectID = "Dbc-qz-gQk"; */
+"Dbc-qz-gQk.title" = "وصفاتي";
+
+/* Class = "UILabel"; text = "عنوان الوصفة"; ObjectID = "J2t-bx-1u8"; */
+"J2t-bx-1u8.text" = "عنوان الوصفة";
+
+/* Class = "UILabel"; text = "باستا"; ObjectID = "MhA-XV-kvX"; */
+"MhA-XV-kvX.text" = "باستا";
+
+/* Class = "UILabel"; text = "20/3/2021"; ObjectID = "PQR-qp-oa7"; */
+"PQR-qp-oa7.text" = "20/3/2021";
+
+/* Class = "UILabel"; text = "ورق عنب"; ObjectID = "Rep-SV-Ak7"; */
+"Rep-SV-Ak7.text" = "ورق عنب";
+
+/* Class = "UIButton"; configuration.title = "إضافة وصفة"; ObjectID = "WnW-mw-ZWV"; */
+"WnW-mw-ZWV.configuration.title" = "إضافة وصفة";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "WnW-mw-ZWV"; */
+"WnW-mw-ZWV.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "الوصفة"; ObjectID = "blh-Ez-x5M"; */
+"blh-Ez-x5M.text" = "الوصفة";
+
+/* Class = "UITabBarItem"; title = "إضافة"; ObjectID = "kuL-eE-HBa"; */
+"kuL-eE-HBa.title" = "إضافة";
+
+/* Class = "UINavigationItem"; title = "وصفة جديدة"; ObjectID = "nub-Eg-yKz"; */
+"nub-Eg-yKz.title" = "وصفة جديدة";
+
+/* Class = "UILabel"; text = "تفاصيل الوصفة"; ObjectID = "o1J-a3-utK"; */
+"o1J-a3-utK.text" = "تفاصيل الوصفة";
+
+/* Class = "UIButton"; configuration.title = "اختيار صورة"; ObjectID = "vDW-wJ-N0S"; */
+"vDW-wJ-N0S.configuration.title" = "اختيار صورة";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "vDW-wJ-N0S"; */
+"vDW-wJ-N0S.normalTitle" = "Button";
