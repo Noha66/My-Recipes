@@ -17,8 +17,11 @@ class RecipeDetailsVC: UIViewController {
     @IBOutlet weak var recipeDetailsLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
+        //Sets up the recipe details screen
         setupUI()
         editRecipeButton.layer.cornerRadius = 15
+        
+        //Edited recipe notification observer
         NotificationCenter.default.addObserver(self, selector: #selector(recipeEdited), name: NSNotification.Name(rawValue: "currentRecipeEdited"), object: nil)
     }
     

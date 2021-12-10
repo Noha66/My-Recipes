@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D0ACD4E327638BE100403CED /* RecipeDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0ACD4E227638BE100403CED /* RecipeDatabase.swift */; };
 		D0D475942760C25F00D1F9A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D475932760C25F00D1F9A6 /* AppDelegate.swift */; };
 		D0D475962760C25F00D1F9A6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D475952760C25F00D1F9A6 /* SceneDelegate.swift */; };
 		D0D4759B2760C25F00D1F9A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0D475992760C25F00D1F9A6 /* Main.storyboard */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D0ACD4E227638BE100403CED /* RecipeDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDatabase.swift; sourceTree = "<group>"; };
 		D0D475902760C25F00D1F9A6 /* MyRecipes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyRecipes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0D475932760C25F00D1F9A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0D475952760C25F00D1F9A6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -47,6 +49,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D0ACD4DD27638A1700403CED /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D0D475B42760E3F700D1F9A6 /* Recipe.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D0ACD4DF27638A9000403CED /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D0D475992760C25F00D1F9A6 /* Main.storyboard */,
+				D0D475B62760E42A00D1F9A6 /* RecipeCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D0ACD4E027638ADD00403CED /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D0D475B82760E43600D1F9A6 /* MyRecipesVC.swift */,
+				D0D475BA2760E44200D1F9A6 /* NewRecipeVC.swift */,
+				D0D475BC2760E44C00D1F9A6 /* RecipeDetailsVC.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		D0ACD4E127638BA300403CED /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				D0ACD4E227638BE100403CED /* RecipeDatabase.swift */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
 		D0D475872760C25F00D1F9A6 = {
 			isa = PBXGroup;
 			children = (
@@ -66,18 +103,16 @@
 		D0D475922760C25F00D1F9A6 /* MyRecipes */ = {
 			isa = PBXGroup;
 			children = (
+				D0D475A12760C26100D1F9A6 /* Info.plist */,
+				D0D4759C2760C26100D1F9A6 /* Assets.xcassets */,
+				D0D4759E2760C26100D1F9A6 /* LaunchScreen.storyboard */,
 				D0D475932760C25F00D1F9A6 /* AppDelegate.swift */,
 				D0D475952760C25F00D1F9A6 /* SceneDelegate.swift */,
-				D0D475B42760E3F700D1F9A6 /* Recipe.swift */,
-				D0D475B62760E42A00D1F9A6 /* RecipeCell.swift */,
-				D0D475B82760E43600D1F9A6 /* MyRecipesVC.swift */,
-				D0D475BA2760E44200D1F9A6 /* NewRecipeVC.swift */,
-				D0D475BC2760E44C00D1F9A6 /* RecipeDetailsVC.swift */,
-				D0D475992760C25F00D1F9A6 /* Main.storyboard */,
-				D0D4759E2760C26100D1F9A6 /* LaunchScreen.storyboard */,
 				D0D475BE2760E45400D1F9A6 /* RecipeData.xcdatamodeld */,
-				D0D4759C2760C26100D1F9A6 /* Assets.xcassets */,
-				D0D475A12760C26100D1F9A6 /* Info.plist */,
+				D0ACD4E127638BA300403CED /* Database */,
+				D0ACD4DD27638A1700403CED /* Models */,
+				D0ACD4DF27638A9000403CED /* Views */,
+				D0ACD4E027638ADD00403CED /* View Controllers */,
 			);
 			path = MyRecipes;
 			sourceTree = "<group>";
@@ -124,7 +159,7 @@
 			knownRegions = (
 				en,
 				Base,
-                ar,
+				ar,
 			);
 			mainGroup = D0D475872760C25F00D1F9A6;
 			productRefGroup = D0D475912760C25F00D1F9A6 /* Products */;
@@ -155,6 +190,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0D475942760C25F00D1F9A6 /* AppDelegate.swift in Sources */,
+				D0ACD4E327638BE100403CED /* RecipeDatabase.swift in Sources */,
 				D0D475C02760E45400D1F9A6 /* RecipeData.xcdatamodeld in Sources */,
 				D0D475B72760E42A00D1F9A6 /* RecipeCell.swift in Sources */,
 				D0D475962760C25F00D1F9A6 /* SceneDelegate.swift in Sources */,

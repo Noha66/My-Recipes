@@ -9,7 +9,5 @@ import UIKit
 struct Recipe{
     var title: String
     var image: UIImage? = nil
-    var recipeDetails: String
-    //var ingrediants: String
-    
+    var recipeDetails: String 
 }
