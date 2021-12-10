@@ -7,4 +7,5 @@ target 'MyRecipes' do
 
   # Pods for MyRecipes
   pod 'CleanyModal'
+  pod 'RAMAnimatedTabBarController'
 end

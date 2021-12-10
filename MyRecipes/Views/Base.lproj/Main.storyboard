@@ -3,6 +3,7 @@
     <device id="retina5_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -40,7 +41,7 @@
                                                                         <constraint firstAttribute="width" constant="90" id="rvC-nW-JeB"/>
                                                                     </constraints>
                                                                 </imageView>
-                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ورق عنب" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rep-SV-Ak7">
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="باستا" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rep-SV-Ak7">
                                                                     <rect key="frame" x="102" y="31.333333333333336" width="153" height="27.666666666666664"/>
                                                                     <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                                                     <color key="textColor" red="0.37573766710000001" green="0.27899050710000001" blue="0.25097382070000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -194,10 +195,26 @@
         <scene sceneID="Lbc-xu-fj0">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="LCK-0y-8uf" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="وصفاتي" image="list.bullet.rectangle" catalog="system" id="Dbc-qz-gQk"/>
+                    <tabBarItem key="tabBarItem" title="وصفاتي" id="Dbc-qz-gQk" customClass="RAMAnimatedTabBarItem" customModule="RAMAnimatedTabBarController">
+                        <imageReference key="image" image="list.bullet.rectangle" catalog="system" symbolScale="large"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="textColor">
+                                <color key="value" red="0.37573766710000001" green="0.27899050710000001" blue="0.25097382070000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="iconColor">
+                                <color key="value" red="0.52156862749999999" green="0.73213344810000003" blue="0.78823529410000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="textFontSize">
+                                <real key="value" value="12"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                        <connections>
+                            <outlet property="animation" destination="GUY-C8-D5v" id="DE5-lo-v2X"/>
+                        </connections>
+                    </tabBarItem>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="792-GE-JsL">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="96"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="103.66666666666666"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" red="0.90797358750000001" green="0.70410597320000001" blue="0.58428931240000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <color key="tintColor" red="0.37573766710000001" green="0.27899050710000001" blue="0.25097382070000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -215,18 +232,26 @@
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bK9-M2-IUV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <customObject id="GUY-C8-D5v" customClass="RAMFlipTopTransitionItemAnimations" customModule="RAMAnimatedTabBarController">
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="duration">
+                            <nil key="value"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </customObject>
             </objects>
             <point key="canvasLocation" x="884.05797101449286" y="64.402173913043484"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Animated Tab Bar Controller-->
         <scene sceneID="2cH-Me-snF">
             <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="scX-f1-rY7" sceneMemberID="viewController">
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="scX-f1-rY7" customClass="RAMAnimatedTabBarController" customModule="RAMAnimatedTabBarController" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="rFA-Qs-Kdu">
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" red="0.94509803920000002" green="0.65306574110000004" blue="0.54114985469999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <color key="selectedImageTintColor" red="0.52028650050000003" green="0.73213344810000003" blue="0.78824561829999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </tabBar>
                     <connections>
@@ -247,7 +272,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WnW-mw-ZWV">
-                                <rect key="frame" x="54" y="621" width="306" height="51"/>
+                                <rect key="frame" x="54" y="634" width="306" height="51"/>
                                 <color key="backgroundColor" red="0.52156862745098043" green="0.73213344810000003" blue="0.78823529411764703" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="51" id="UZQ-cf-SlW"/>
@@ -262,16 +287,16 @@
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="aHu-sn-AgP">
-                                <rect key="frame" x="10" y="64" width="394" height="533.66666666666663"/>
+                                <rect key="frame" x="10" y="64" width="394" height="546.66666666666663"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="-6" translatesAutoresizingMaskIntoConstraints="NO" id="qnI-04-yxM">
-                                        <rect key="frame" x="0.0" y="0.0" width="394" height="284"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="394" height="246"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="262-lN-wZs">
-                                                <rect key="frame" x="0.0" y="0.0" width="394" height="250"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="394" height="217.33333333333334"/>
                                             </imageView>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vDW-wJ-N0S">
-                                                <rect key="frame" x="0.0" y="244" width="394" height="40"/>
+                                                <rect key="frame" x="0.0" y="211.33333333333331" width="394" height="34.666666666666657"/>
                                                 <color key="backgroundColor" red="0.87526184959999997" green="0.94985796060000005" blue="0.96350228000000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <color key="tintColor" red="0.37573766710000001" green="0.27899050710000001" blue="0.25097382070000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <state key="normal" title="Button"/>
@@ -287,7 +312,7 @@
                                         </constraints>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="LW3-dT-9AG">
-                                        <rect key="frame" x="0.0" y="294" width="394" height="146.66666666666663"/>
+                                        <rect key="frame" x="0.0" y="256" width="394" height="71"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="عنوان الوصفة" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J2t-bx-1u8">
                                                 <rect key="frame" x="0.0" y="0.0" width="394" height="24"/>
@@ -296,34 +321,43 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="right" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="9ow-Bu-cFi">
-                                                <rect key="frame" x="0.0" y="32.000000000000007" width="394" height="114.66666666666669"/>
+                                                <rect key="frame" x="0.0" y="32" width="394" height="39"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
                                         </subviews>
+                                        <constraints>
+                                            <constraint firstItem="9ow-Bu-cFi" firstAttribute="height" secondItem="LW3-dT-9AG" secondAttribute="height" multiplier="0.55" id="ylQ-c2-1r6"/>
+                                        </constraints>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="9" translatesAutoresizingMaskIntoConstraints="NO" id="cFy-xI-DGq">
-                                        <rect key="frame" x="0.0" y="450.66666666666663" width="394" height="83"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="cFy-xI-DGq">
+                                        <rect key="frame" x="0.0" y="337" width="394" height="209.66666666666663"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="تفاصيل الوصفة" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o1J-a3-utK">
-                                                <rect key="frame" x="0.0" y="0.0" width="394" height="24"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="394" height="55"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                                 <color key="textColor" red="0.37573766710000001" green="0.27899050710000001" blue="0.25097382070000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="right" translatesAutoresizingMaskIntoConstraints="NO" id="aO5-9R-3MZ">
-                                                <rect key="frame" x="0.0" y="33" width="394" height="50"/>
+                                                <rect key="frame" x="0.0" y="62.999999999999986" width="394" height="146.66666666666663"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <color key="textColor" systemColor="labelColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                         </subviews>
+                                        <constraints>
+                                            <constraint firstItem="aO5-9R-3MZ" firstAttribute="height" secondItem="cFy-xI-DGq" secondAttribute="height" multiplier="0.7" id="fOm-ju-VEo"/>
+                                        </constraints>
                                     </stackView>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstItem="qnI-04-yxM" firstAttribute="height" secondItem="aHu-sn-AgP" secondAttribute="height" multiplier="0.45" id="PEK-VT-vyD"/>
+                                </constraints>
                             </stackView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lvL-QZ-XKC">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="57"/>
                                 <color key="backgroundColor" red="0.90797358750000001" green="0.70410597320000001" blue="0.58428931240000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
                         </subviews>
@@ -361,12 +395,29 @@
         <scene sceneID="tYI-bD-Fbp">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="axb-vr-ics" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="إضافة" image="plus" catalog="system" id="kuL-eE-HBa"/>
+                    <tabBarItem key="tabBarItem" title="إضافة" id="kuL-eE-HBa" customClass="RAMAnimatedTabBarItem" customModule="RAMAnimatedTabBarController">
+                        <imageReference key="image" image="plus" catalog="system" symbolScale="large"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="textColor">
+                                <color key="value" red="0.37573766710000001" green="0.27899050710000001" blue="0.25097382070000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="iconColor">
+                                <color key="value" red="0.52156862749999999" green="0.73213344810000003" blue="0.78823529410000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="textFontSize">
+                                <real key="value" value="12"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                        <connections>
+                            <outlet property="animation" destination="pBs-mo-HUg" id="1kg-g7-oJd"/>
+                        </connections>
+                    </tabBarItem>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="bIV-z9-VBY">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" red="0.90797358750000001" green="0.70410597320000001" blue="0.58428931240000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="barTintColor" red="0.90797358750000001" green="0.70410597320000001" blue="0.58428931240000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <textAttributes key="titleTextAttributes">
                             <color key="textColor" red="0.37573766710000001" green="0.27899050710000001" blue="0.25097382070000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         </textAttributes>
@@ -380,6 +431,7 @@
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Yde-LN-WTY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <customObject id="pBs-mo-HUg" customClass="RAMFlipTopTransitionItemAnimations" customModule="RAMAnimatedTabBarController"/>
             </objects>
             <point key="canvasLocation" x="882.60869565217399" y="818.47826086956525"/>
         </scene>

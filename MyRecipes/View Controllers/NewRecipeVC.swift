@@ -21,8 +21,12 @@ class NewRecipeVC: UIViewController {
         
         //Styling
         recipeDetailsTextView.layer.borderColor = UIColor.lightGray.cgColor
-        recipeDetailsTextView.layer.borderWidth = 0.5
+        recipeDetailsTextView.layer.borderWidth = 1
+        recipeDetailsTextView.layer.borderColor = UIColor(red: 133.0/255.0, green: 187.0/255.0, blue: 201.0/255.0, alpha: 1.0).cgColor
         recipeDetailsTextView.layer.cornerRadius = 15
+        recipeTitleTextField.layer.cornerRadius = 15
+        recipeTitleTextField.layer.borderWidth = 1
+        recipeTitleTextField.layer.borderColor = UIColor(red: 133.0/255.0, green: 187.0/255.0, blue: 201.0/255.0, alpha: 1.0).cgColor
         addButton.layer.cornerRadius = 15
         
         //Checks if it is a new recipe or edited recipe

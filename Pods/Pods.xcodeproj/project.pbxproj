@@ -7,73 +7,121 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		05F800984C5022C4203FC51FD1BD56D3 /* CleanyAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A985D242AD65B897B993410AABDB46 /* CleanyAlertViewController.swift */; };
-		176F3190554D53D4F503011EA90E9CBD /* CleanyModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1DB9E113186423E736FE73F9D55C74 /* CleanyModalViewController.swift */; };
-		1F6D12124DD67F545178BB8B95CB6AE7 /* CleanyAlertActionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A44BADC4D8DCAF603E0F2338F61C995 /* CleanyAlertActionTableViewCell.swift */; };
-		290CED810C7991DF9141B5FC340F1340 /* CleanyConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC928A7F7418CEF8528EF9D79A64C577 /* CleanyConfig.swift */; };
-		2CFCF0C0D8B3CF730659489409C809AD /* CleanyAlertActionTableViewCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = FF02D511E1E9848FCE9F76CE6B3FCA30 /* CleanyAlertActionTableViewCell.xib */; };
-		440C1C66B79F2A6A3FBE5D5B5B4F8CE2 /* NSLayoutConstraint+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907DFA80152ABACC64004CDD45ED6563 /* NSLayoutConstraint+Extension.swift */; };
-		4E51DE4EF2ABB74CE6BE159EC3A70E5B /* CleanyModal-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1714BBAC2FF3BD7CA80109496FBFA9FC /* CleanyModal-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4EBE63B0E3C4640919FF94B553FB36DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		05F800984C5022C4203FC51FD1BD56D3 /* CleanyAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5292971345E081D55A1A9B88A5B57404 /* CleanyAlertViewController.swift */; };
+		078CF1715E560310C7EF03E17F5DF42D /* RAMTransitionItemAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD098DB5821036D223FB4DCC034D2BD /* RAMTransitionItemAnimations.swift */; };
+		12BEDAC8CB75C1A865921CD352C8CAA1 /* RAMAnimatedTabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC33784ADE1913B421ED0364D819BE5D /* RAMAnimatedTabBarItem.swift */; };
+		17646EF4201DF64092E10A3AAF7C10CF /* RAMAnimatedTabBarController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D650C514D8A72D58E10C0722DA1060B /* RAMAnimatedTabBarController-dummy.m */; };
+		176F3190554D53D4F503011EA90E9CBD /* CleanyModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD23734107C0C1BE5CF0A1A5FE926D0 /* CleanyModalViewController.swift */; };
+		1F6D12124DD67F545178BB8B95CB6AE7 /* CleanyAlertActionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2953DBB4860A0944BE17C81BFC0086 /* CleanyAlertActionTableViewCell.swift */; };
+		281B1A814C00DE14964F62DDE1230528 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		290CED810C7991DF9141B5FC340F1340 /* CleanyConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3144415F2ED4E7355C6ADD5FB16FBF /* CleanyConfig.swift */; };
+		2CFCF0C0D8B3CF730659489409C809AD /* CleanyAlertActionTableViewCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = AA61EC2493F3C2836D6EA7E9CEB84032 /* CleanyAlertActionTableViewCell.xib */; };
+		440C1C66B79F2A6A3FBE5D5B5B4F8CE2 /* NSLayoutConstraint+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58671BD31D1426658EF9050C86EF39C0 /* NSLayoutConstraint+Extension.swift */; };
+		440EE52A960CD3385A8180D8E05E951B /* RAMFumeAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BD6B6B45FBC6B93DED0527198B6934 /* RAMFumeAnimation.swift */; };
+		4E51DE4EF2ABB74CE6BE159EC3A70E5B /* CleanyModal-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CAA66679449EB7BD827337400DCF1C4 /* CleanyModal-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4EC7D7FB3840A9B8693CE1D3F4E40179 /* Pods-MyRecipes-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 084E29C75B21731AA74A1074D533DDB8 /* Pods-MyRecipes-dummy.m */; };
+		56E22C707C8EE00926021E660E657F52 /* RAMBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552BE6657CBBDDE4723E978B006ED247 /* RAMBadge.swift */; };
 		59B0195EE5E8D2EF590C8D3B95A8985A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		822C336C56ACBAF56F493D1D5B71E953 /* Pods-MyRecipes-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 084E29C75B21731AA74A1074D533DDB8 /* Pods-MyRecipes-dummy.m */; };
-		9222BD704E0A5ED4F7C2638F0D095229 /* AlertModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7475A671D9D95364FE540C46BB333FCD /* AlertModel.swift */; };
-		A278E042A5B5DC2547EAC7FEEBDC8FBA /* CleanyAlertViewController.xib in Sources */ = {isa = PBXBuildFile; fileRef = BC1510EB9EF6E8D5EF0891998FC5F608 /* CleanyAlertViewController.xib */; };
-		ACC9262F87FCC7309C50EE7023B39314 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 539DE9CE1CDC89F78109A81F5299633C /* UIColor+Extension.swift */; };
-		AEB5615EDFC684965631D65117D21F1C /* CleanyModal-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B339CBEEA6168DAE12B4569B023996 /* CleanyModal-dummy.m */; };
-		C25531039A9B1943DF38A66FBA35067C /* Pods-MyRecipes-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BC4D1C66F709B21702F8A4570A0DF70 /* Pods-MyRecipes-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EC535E8461FEB197BC3053403F5BB87C /* CleanyModalTransitionDelegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB615B1F3AD728A37175BA0FE6381D05 /* CleanyModalTransitionDelegates.swift */; };
+		5AED62FF7E4E3389A262D1356A561A1F /* RAMAnimatedTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3D2DC2CF8329377003CAF0E8E4C679 /* RAMAnimatedTabBarController.swift */; };
+		646080CE42644581AA769604AB3286C6 /* RAMAnimatedTabBarController+BottomLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CA20E38816B7B32A944954EE667B73 /* RAMAnimatedTabBarController+BottomLine.swift */; };
+		7EB3CC1B799093069B92369E771B5211 /* Pods-MyRecipes-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BC4D1C66F709B21702F8A4570A0DF70 /* Pods-MyRecipes-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9222BD704E0A5ED4F7C2638F0D095229 /* AlertModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5CE5B238AD944D3D6AA7147988B674 /* AlertModel.swift */; };
+		9D33C39EC40AFC70E5E46477D0AA5FE7 /* RAMBounceAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53822776314F46BA3E3EAED5CB65B5DB /* RAMBounceAnimation.swift */; };
+		A24764066D04C97F83386D5BA18DA819 /* RAMRotationAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C4861DA5516DF3371B7BC10C8C0241 /* RAMRotationAnimation.swift */; };
+		A278E042A5B5DC2547EAC7FEEBDC8FBA /* CleanyAlertViewController.xib in Sources */ = {isa = PBXBuildFile; fileRef = 491BEC5F37576A6A0D852B25178E555D /* CleanyAlertViewController.xib */; };
+		AB0C4E1D3ED74455A4C634ACC6ECBCAC /* Collection+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76DFBBF398EDE704FE126068ECE2D0D3 /* Collection+Extensions.swift */; };
+		ACC9262F87FCC7309C50EE7023B39314 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDBEBE77BDAB93BBE10F3D7A7B03EB4 /* UIColor+Extension.swift */; };
+		AEB5615EDFC684965631D65117D21F1C /* CleanyModal-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A164563F2DD9C9F971FA32AEF0062011 /* CleanyModal-dummy.m */; };
+		B33281CFA69651CDB6BA8206BE085EB3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		BB66AF0EEACC796ADF43337BE166F30E /* RAMItemAnimationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32C6B2D40AF5E62D8C7441E29F40196 /* RAMItemAnimationProtocol.swift */; };
+		EC535E8461FEB197BC3053403F5BB87C /* CleanyModalTransitionDelegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7911734CAB84C95B860AC4A3FF7C66 /* CleanyModalTransitionDelegates.swift */; };
+		F665C239323B7E4B154F93FBFE7F8062 /* RAMFrameItemAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F004140DCFFECF868ED52510378CD04 /* RAMFrameItemAnimation.swift */; };
+		FE283D9F107DA6B03D39CC944DD88477 /* RAMAnimatedTabBarController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4266F33F9CE114F63FC50AA51BF8668C /* RAMAnimatedTabBarController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		6F4C0F761303C832DD9AD900C076BAB9 /* PBXContainerItemProxy */ = {
+		20BF6BD7B6E7CDC7AE403D48780EE2C2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 9C45A829CDBA420E188ABC8136AA36AF;
 			remoteInfo = CleanyModal;
 		};
+		76F0ED6171516781DAEC3F41CD99FB07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DED4DEF356A163E50925101C3C7C0FB9;
+			remoteInfo = RAMAnimatedTabBarController;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07F4095E2E029E86BE3E97650E5A2589 /* RAMAnimatedTabBarController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RAMAnimatedTabBarController-prefix.pch"; sourceTree = "<group>"; };
 		084E29C75B21731AA74A1074D533DDB8 /* Pods-MyRecipes-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MyRecipes-dummy.m"; sourceTree = "<group>"; };
-		14A985D242AD65B897B993410AABDB46 /* CleanyAlertViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CleanyAlertViewController.swift; path = CleanyModal/Classes/CleanyAlertViewController.swift; sourceTree = "<group>"; };
-		1714BBAC2FF3BD7CA80109496FBFA9FC /* CleanyModal-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CleanyModal-umbrella.h"; sourceTree = "<group>"; };
+		0CD098DB5821036D223FB4DCC034D2BD /* RAMTransitionItemAnimations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMTransitionItemAnimations.swift; path = RAMAnimatedTabBarController/Animations/TransitionAniamtions/RAMTransitionItemAnimations.swift; sourceTree = "<group>"; };
+		12AECF5FB5200750E5C0997708744305 /* CleanyModal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CleanyModal.release.xcconfig; sourceTree = "<group>"; };
 		1C61A7826E64948CFF90EF249D6AB809 /* Pods-MyRecipes-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MyRecipes-frameworks.sh"; sourceTree = "<group>"; };
-		2D1DB9E113186423E736FE73F9D55C74 /* CleanyModalViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CleanyModalViewController.swift; path = CleanyModal/Classes/CleanyModalViewController.swift; sourceTree = "<group>"; };
-		2E25C7C8B58E13EFD54E55CD7923021B /* CleanyModal.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CleanyModal.modulemap; sourceTree = "<group>"; };
+		2E7911734CAB84C95B860AC4A3FF7C66 /* CleanyModalTransitionDelegates.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CleanyModalTransitionDelegates.swift; path = CleanyModal/Classes/CleanyModalTransitionDelegates.swift; sourceTree = "<group>"; };
 		30717F38269F3F308C70B62C5855FE42 /* Pods-MyRecipes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyRecipes.debug.xcconfig"; sourceTree = "<group>"; };
-		3E2140627BC629F1DDB4BC567EF76A13 /* CleanyModal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CleanyModal.debug.xcconfig; sourceTree = "<group>"; };
-		4184B9A987F38A567B7CCB23794C3B72 /* CleanyModal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CleanyModal.release.xcconfig; sourceTree = "<group>"; };
-		539DE9CE1CDC89F78109A81F5299633C /* UIColor+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+Extension.swift"; path = "CleanyModal/Classes/Helper/UIColor+Extension.swift"; sourceTree = "<group>"; };
+		38BD6B6B45FBC6B93DED0527198B6934 /* RAMFumeAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMFumeAnimation.swift; path = RAMAnimatedTabBarController/Animations/FumeAnimation/RAMFumeAnimation.swift; sourceTree = "<group>"; };
+		4266F33F9CE114F63FC50AA51BF8668C /* RAMAnimatedTabBarController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RAMAnimatedTabBarController-umbrella.h"; sourceTree = "<group>"; };
+		491BEC5F37576A6A0D852B25178E555D /* CleanyAlertViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = CleanyAlertViewController.xib; path = CleanyModal/Classes/CleanyAlertViewController.xib; sourceTree = "<group>"; };
+		4A5CE5B238AD944D3D6AA7147988B674 /* AlertModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlertModel.swift; path = CleanyModal/Classes/Model/AlertModel.swift; sourceTree = "<group>"; };
+		4D650C514D8A72D58E10C0722DA1060B /* RAMAnimatedTabBarController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RAMAnimatedTabBarController-dummy.m"; sourceTree = "<group>"; };
+		4DDBEBE77BDAB93BBE10F3D7A7B03EB4 /* UIColor+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+Extension.swift"; path = "CleanyModal/Classes/Helper/UIColor+Extension.swift"; sourceTree = "<group>"; };
+		5292971345E081D55A1A9B88A5B57404 /* CleanyAlertViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CleanyAlertViewController.swift; path = CleanyModal/Classes/CleanyAlertViewController.swift; sourceTree = "<group>"; };
+		53822776314F46BA3E3EAED5CB65B5DB /* RAMBounceAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMBounceAnimation.swift; path = RAMAnimatedTabBarController/Animations/BounceAnimation/RAMBounceAnimation.swift; sourceTree = "<group>"; };
+		552BE6657CBBDDE4723E978B006ED247 /* RAMBadge.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMBadge.swift; path = RAMAnimatedTabBarController/RAMBadge/RAMBadge.swift; sourceTree = "<group>"; };
+		58671BD31D1426658EF9050C86EF39C0 /* NSLayoutConstraint+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSLayoutConstraint+Extension.swift"; path = "CleanyModal/Classes/Helper/NSLayoutConstraint+Extension.swift"; sourceTree = "<group>"; };
+		5AB2F4FA8C77148053F5EF3FF307E903 /* CleanyModal-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CleanyModal-Info.plist"; sourceTree = "<group>"; };
+		5CAA66679449EB7BD827337400DCF1C4 /* CleanyModal-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CleanyModal-umbrella.h"; sourceTree = "<group>"; };
 		63EC85FBC67568B61F59A68BD6754E4B /* Pods-MyRecipes-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MyRecipes-Info.plist"; sourceTree = "<group>"; };
+		65D52D12A018A9CED77D4E348AAFB317 /* RAMAnimatedTabBarController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RAMAnimatedTabBarController-Info.plist"; sourceTree = "<group>"; };
 		67FC986D2B10591BA1962249E1D25106 /* Pods-MyRecipes-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MyRecipes-acknowledgements.plist"; sourceTree = "<group>"; };
+		6803A26D713572B4FCF211333F946956 /* RAMAnimatedTabBarController */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RAMAnimatedTabBarController; path = RAMAnimatedTabBarController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BC4D1C66F709B21702F8A4570A0DF70 /* Pods-MyRecipes-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MyRecipes-umbrella.h"; sourceTree = "<group>"; };
 		6F19C207FF57A79C96CDD602E9A945BE /* CleanyModal */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CleanyModal; path = CleanyModal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7177F8E5E1AC2E54781BECCAB2F74817 /* CleanyModal-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CleanyModal-Info.plist"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7475A671D9D95364FE540C46BB333FCD /* AlertModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlertModel.swift; path = CleanyModal/Classes/Model/AlertModel.swift; sourceTree = "<group>"; };
-		907DFA80152ABACC64004CDD45ED6563 /* NSLayoutConstraint+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSLayoutConstraint+Extension.swift"; path = "CleanyModal/Classes/Helper/NSLayoutConstraint+Extension.swift"; sourceTree = "<group>"; };
-		9A44BADC4D8DCAF603E0F2338F61C995 /* CleanyAlertActionTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CleanyAlertActionTableViewCell.swift; path = CleanyModal/Classes/CleanyAlertActionTableViewCell.swift; sourceTree = "<group>"; };
+		76DFBBF398EDE704FE126068ECE2D0D3 /* Collection+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Collection+Extensions.swift"; path = "RAMAnimatedTabBarController/Utilities/Collection+Extensions.swift"; sourceTree = "<group>"; };
+		8E3144415F2ED4E7355C6ADD5FB16FBF /* CleanyConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CleanyConfig.swift; path = CleanyModal/Classes/CleanyConfig.swift; sourceTree = "<group>"; };
+		8F004140DCFFECF868ED52510378CD04 /* RAMFrameItemAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMFrameItemAnimation.swift; path = RAMAnimatedTabBarController/Animations/FrameAnimation/RAMFrameItemAnimation.swift; sourceTree = "<group>"; };
+		8FDDE0A9F3FDF09F85CB61ADED7BC3F9 /* RAMAnimatedTabBarController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RAMAnimatedTabBarController.release.xcconfig; sourceTree = "<group>"; };
+		98CA20E38816B7B32A944954EE667B73 /* RAMAnimatedTabBarController+BottomLine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "RAMAnimatedTabBarController+BottomLine.swift"; path = "RAMAnimatedTabBarController/BottomLine/RAMAnimatedTabBarController+BottomLine.swift"; sourceTree = "<group>"; };
 		9B6363167DCDDB5586FA0321955F8AFB /* Pods-MyRecipes */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MyRecipes"; path = Pods_MyRecipes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A3B339CBEEA6168DAE12B4569B023996 /* CleanyModal-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CleanyModal-dummy.m"; sourceTree = "<group>"; };
+		9E6EFF2AC17E5706DF458D766425EA64 /* CleanyModal.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CleanyModal.modulemap; sourceTree = "<group>"; };
+		A164563F2DD9C9F971FA32AEF0062011 /* CleanyModal-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CleanyModal-dummy.m"; sourceTree = "<group>"; };
 		A98F8CB56B5436C71FF66B59ED554D01 /* Pods-MyRecipes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyRecipes.release.xcconfig"; sourceTree = "<group>"; };
+		AA61EC2493F3C2836D6EA7E9CEB84032 /* CleanyAlertActionTableViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = CleanyAlertActionTableViewCell.xib; path = CleanyModal/Classes/CleanyAlertActionTableViewCell.xib; sourceTree = "<group>"; };
+		ABD23734107C0C1BE5CF0A1A5FE926D0 /* CleanyModalViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CleanyModalViewController.swift; path = CleanyModal/Classes/CleanyModalViewController.swift; sourceTree = "<group>"; };
 		ABF16367FBF32B0F85D4C1EE7D639174 /* Pods-MyRecipes-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MyRecipes-acknowledgements.markdown"; sourceTree = "<group>"; };
-		AD95254443561545C96D9A8F2FE9E453 /* CleanyModal-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CleanyModal-prefix.pch"; sourceTree = "<group>"; };
-		BC1510EB9EF6E8D5EF0891998FC5F608 /* CleanyAlertViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = CleanyAlertViewController.xib; path = CleanyModal/Classes/CleanyAlertViewController.xib; sourceTree = "<group>"; };
-		EB615B1F3AD728A37175BA0FE6381D05 /* CleanyModalTransitionDelegates.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CleanyModalTransitionDelegates.swift; path = CleanyModal/Classes/CleanyModalTransitionDelegates.swift; sourceTree = "<group>"; };
-		EC928A7F7418CEF8528EF9D79A64C577 /* CleanyConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CleanyConfig.swift; path = CleanyModal/Classes/CleanyConfig.swift; sourceTree = "<group>"; };
+		C32C6B2D40AF5E62D8C7441E29F40196 /* RAMItemAnimationProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMItemAnimationProtocol.swift; path = RAMAnimatedTabBarController/RAMItemAnimationProtocol.swift; sourceTree = "<group>"; };
+		C3FAA029A7590C5AFB50E4911E100257 /* CleanyModal-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CleanyModal-prefix.pch"; sourceTree = "<group>"; };
+		CA101AD18DD32059120FC4AE3742573C /* CleanyModal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CleanyModal.debug.xcconfig; sourceTree = "<group>"; };
+		CD2953DBB4860A0944BE17C81BFC0086 /* CleanyAlertActionTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CleanyAlertActionTableViewCell.swift; path = CleanyModal/Classes/CleanyAlertActionTableViewCell.swift; sourceTree = "<group>"; };
+		DC33784ADE1913B421ED0364D819BE5D /* RAMAnimatedTabBarItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMAnimatedTabBarItem.swift; path = RAMAnimatedTabBarController/RAMAnimatedTabBarItem.swift; sourceTree = "<group>"; };
+		EB3D2DC2CF8329377003CAF0E8E4C679 /* RAMAnimatedTabBarController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMAnimatedTabBarController.swift; path = RAMAnimatedTabBarController/RAMAnimatedTabBarController.swift; sourceTree = "<group>"; };
+		F1C4861DA5516DF3371B7BC10C8C0241 /* RAMRotationAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RAMRotationAnimation.swift; path = RAMAnimatedTabBarController/Animations/RotationAnimation/RAMRotationAnimation.swift; sourceTree = "<group>"; };
 		F6DA4409132B57259F75CD1BFC5E7A76 /* Pods-MyRecipes.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MyRecipes.modulemap"; sourceTree = "<group>"; };
-		FF02D511E1E9848FCE9F76CE6B3FCA30 /* CleanyAlertActionTableViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = CleanyAlertActionTableViewCell.xib; path = CleanyModal/Classes/CleanyAlertActionTableViewCell.xib; sourceTree = "<group>"; };
+		F951E2FB401E43376FC0CB9707F9A6A2 /* RAMAnimatedTabBarController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RAMAnimatedTabBarController.debug.xcconfig; sourceTree = "<group>"; };
+		FA6AC9AF4E092057D5D3504C2C9201C6 /* RAMAnimatedTabBarController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RAMAnimatedTabBarController.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2F460A7926CE3D210DF8C0BD14233345 /* Frameworks */ = {
+		8C8BC72110197A87D9E2C15B8C67773E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4EBE63B0E3C4640919FF94B553FB36DB /* Foundation.framework in Frameworks */,
+				B33281CFA69651CDB6BA8206BE085EB3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97ADCFF3ECF419926B5B00E2243B83C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				281B1A814C00DE14964F62DDE1230528 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,19 +136,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0E9A19F159EFF829E6D608ABDD5881EE /* Support Files */ = {
+		0E7500A0F7DE7C0323836FA422A34C66 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				2E25C7C8B58E13EFD54E55CD7923021B /* CleanyModal.modulemap */,
-				A3B339CBEEA6168DAE12B4569B023996 /* CleanyModal-dummy.m */,
-				7177F8E5E1AC2E54781BECCAB2F74817 /* CleanyModal-Info.plist */,
-				AD95254443561545C96D9A8F2FE9E453 /* CleanyModal-prefix.pch */,
-				1714BBAC2FF3BD7CA80109496FBFA9FC /* CleanyModal-umbrella.h */,
-				3E2140627BC629F1DDB4BC567EF76A13 /* CleanyModal.debug.xcconfig */,
-				4184B9A987F38A567B7CCB23794C3B72 /* CleanyModal.release.xcconfig */,
+				FA6AC9AF4E092057D5D3504C2C9201C6 /* RAMAnimatedTabBarController.modulemap */,
+				4D650C514D8A72D58E10C0722DA1060B /* RAMAnimatedTabBarController-dummy.m */,
+				65D52D12A018A9CED77D4E348AAFB317 /* RAMAnimatedTabBarController-Info.plist */,
+				07F4095E2E029E86BE3E97650E5A2589 /* RAMAnimatedTabBarController-prefix.pch */,
+				4266F33F9CE114F63FC50AA51BF8668C /* RAMAnimatedTabBarController-umbrella.h */,
+				F951E2FB401E43376FC0CB9707F9A6A2 /* RAMAnimatedTabBarController.debug.xcconfig */,
+				8FDDE0A9F3FDF09F85CB61ADED7BC3F9 /* RAMAnimatedTabBarController.release.xcconfig */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/CleanyModal";
+			path = "../Target Support Files/RAMAnimatedTabBarController";
+			sourceTree = "<group>";
+		};
+		1215EF5374A909C3BEACA4182CB73075 /* RAMAnimatedTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				76DFBBF398EDE704FE126068ECE2D0D3 /* Collection+Extensions.swift */,
+				EB3D2DC2CF8329377003CAF0E8E4C679 /* RAMAnimatedTabBarController.swift */,
+				98CA20E38816B7B32A944954EE667B73 /* RAMAnimatedTabBarController+BottomLine.swift */,
+				DC33784ADE1913B421ED0364D819BE5D /* RAMAnimatedTabBarItem.swift */,
+				552BE6657CBBDDE4723E978B006ED247 /* RAMBadge.swift */,
+				53822776314F46BA3E3EAED5CB65B5DB /* RAMBounceAnimation.swift */,
+				8F004140DCFFECF868ED52510378CD04 /* RAMFrameItemAnimation.swift */,
+				38BD6B6B45FBC6B93DED0527198B6934 /* RAMFumeAnimation.swift */,
+				C32C6B2D40AF5E62D8C7441E29F40196 /* RAMItemAnimationProtocol.swift */,
+				F1C4861DA5516DF3371B7BC10C8C0241 /* RAMRotationAnimation.swift */,
+				0CD098DB5821036D223FB4DCC034D2BD /* RAMTransitionItemAnimations.swift */,
+				0E7500A0F7DE7C0323836FA422A34C66 /* Support Files */,
+			);
+			name = RAMAnimatedTabBarController;
+			path = RAMAnimatedTabBarController;
+			sourceTree = "<group>";
+		};
+		17612BC65D24EE670FDA9C7A79D024A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F19C207FF57A79C96CDD602E9A945BE /* CleanyModal */,
+				9B6363167DCDDB5586FA0321955F8AFB /* Pods-MyRecipes */,
+				6803A26D713572B4FCF211333F946956 /* RAMAnimatedTabBarController */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		30D0F06B03562C7EB43CC78D72933C17 /* Pods-MyRecipes */ = {
@@ -136,32 +214,47 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		B0F749BFD9C80F03F9A8E8356DD44C33 /* Products */ = {
+		6CB919FF79E79113554A37AE6B729EC3 /* CleanyModal */ = {
 			isa = PBXGroup;
 			children = (
-				6F19C207FF57A79C96CDD602E9A945BE /* CleanyModal */,
-				9B6363167DCDDB5586FA0321955F8AFB /* Pods-MyRecipes */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		B1C9AC0F687E41D6437EEFECBA7594BA /* CleanyModal */ = {
-			isa = PBXGroup;
-			children = (
-				7475A671D9D95364FE540C46BB333FCD /* AlertModel.swift */,
-				9A44BADC4D8DCAF603E0F2338F61C995 /* CleanyAlertActionTableViewCell.swift */,
-				FF02D511E1E9848FCE9F76CE6B3FCA30 /* CleanyAlertActionTableViewCell.xib */,
-				14A985D242AD65B897B993410AABDB46 /* CleanyAlertViewController.swift */,
-				BC1510EB9EF6E8D5EF0891998FC5F608 /* CleanyAlertViewController.xib */,
-				EC928A7F7418CEF8528EF9D79A64C577 /* CleanyConfig.swift */,
-				EB615B1F3AD728A37175BA0FE6381D05 /* CleanyModalTransitionDelegates.swift */,
-				2D1DB9E113186423E736FE73F9D55C74 /* CleanyModalViewController.swift */,
-				907DFA80152ABACC64004CDD45ED6563 /* NSLayoutConstraint+Extension.swift */,
-				539DE9CE1CDC89F78109A81F5299633C /* UIColor+Extension.swift */,
-				0E9A19F159EFF829E6D608ABDD5881EE /* Support Files */,
+				4A5CE5B238AD944D3D6AA7147988B674 /* AlertModel.swift */,
+				CD2953DBB4860A0944BE17C81BFC0086 /* CleanyAlertActionTableViewCell.swift */,
+				AA61EC2493F3C2836D6EA7E9CEB84032 /* CleanyAlertActionTableViewCell.xib */,
+				5292971345E081D55A1A9B88A5B57404 /* CleanyAlertViewController.swift */,
+				491BEC5F37576A6A0D852B25178E555D /* CleanyAlertViewController.xib */,
+				8E3144415F2ED4E7355C6ADD5FB16FBF /* CleanyConfig.swift */,
+				2E7911734CAB84C95B860AC4A3FF7C66 /* CleanyModalTransitionDelegates.swift */,
+				ABD23734107C0C1BE5CF0A1A5FE926D0 /* CleanyModalViewController.swift */,
+				58671BD31D1426658EF9050C86EF39C0 /* NSLayoutConstraint+Extension.swift */,
+				4DDBEBE77BDAB93BBE10F3D7A7B03EB4 /* UIColor+Extension.swift */,
+				BDEA4B074024109F079239C9267C4225 /* Support Files */,
 			);
 			name = CleanyModal;
 			path = CleanyModal;
+			sourceTree = "<group>";
+		};
+		89E4689ABC66847F8EE10ADF2143C4C8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6CB919FF79E79113554A37AE6B729EC3 /* CleanyModal */,
+				1215EF5374A909C3BEACA4182CB73075 /* RAMAnimatedTabBarController */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BDEA4B074024109F079239C9267C4225 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9E6EFF2AC17E5706DF458D766425EA64 /* CleanyModal.modulemap */,
+				A164563F2DD9C9F971FA32AEF0062011 /* CleanyModal-dummy.m */,
+				5AB2F4FA8C77148053F5EF3FF307E903 /* CleanyModal-Info.plist */,
+				C3FAA029A7590C5AFB50E4911E100257 /* CleanyModal-prefix.pch */,
+				5CAA66679449EB7BD827337400DCF1C4 /* CleanyModal-umbrella.h */,
+				CA101AD18DD32059120FC4AE3742573C /* CleanyModal.debug.xcconfig */,
+				12AECF5FB5200750E5C0997708744305 /* CleanyModal.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CleanyModal";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -169,8 +262,8 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				D43313009D8973F149035B90AC33C9DD /* Pods */,
-				B0F749BFD9C80F03F9A8E8356DD44C33 /* Products */,
+				89E4689ABC66847F8EE10ADF2143C4C8 /* Pods */,
+				17612BC65D24EE670FDA9C7A79D024A1 /* Products */,
 				4B0B638EA803367FE2B16B0722E78FBA /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -183,17 +276,17 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D43313009D8973F149035B90AC33C9DD /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				B1C9AC0F687E41D6437EEFECBA7594BA /* CleanyModal */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		43859A317AD5A9AA74D781295CE5B79B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE283D9F107DA6B03D39CC944DD88477 /* RAMAnimatedTabBarController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A31A9D00EFF890217704A0D9EFB083A7 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -202,11 +295,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E9BA612DC7EE014508E44324005C9472 /* Headers */ = {
+		E0FE4618B1AA3E2C24F7E9701E57E8E6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C25531039A9B1943DF38A66FBA35067C /* Pods-MyRecipes-umbrella.h in Headers */,
+				7EB3CC1B799093069B92369E771B5211 /* Pods-MyRecipes-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,17 +308,18 @@
 /* Begin PBXNativeTarget section */
 		009BC4CD4F84BE81CFB05306F5E05338 /* Pods-MyRecipes */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 094A5C93B6189B37113AB77F2BC24D6C /* Build configuration list for PBXNativeTarget "Pods-MyRecipes" */;
+			buildConfigurationList = 301A7E6D2598412771C2688DAD9B02BB /* Build configuration list for PBXNativeTarget "Pods-MyRecipes" */;
 			buildPhases = (
-				E9BA612DC7EE014508E44324005C9472 /* Headers */,
-				7E13DFC09BF708A0A459310EC98ECC42 /* Sources */,
-				2F460A7926CE3D210DF8C0BD14233345 /* Frameworks */,
-				4D0657B088BEA25E64201E18DD91C6E0 /* Resources */,
+				E0FE4618B1AA3E2C24F7E9701E57E8E6 /* Headers */,
+				73F6DED53D0369C6BFCADFB0EB4C4AAB /* Sources */,
+				97ADCFF3ECF419926B5B00E2243B83C8 /* Frameworks */,
+				51F6C7567D824C8BE0A0727ED3E04E45 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				24DFF35B1DDB628272451816EE9D77EA /* PBXTargetDependency */,
+				861596A7428757193B7B6C4372595F54 /* PBXTargetDependency */,
+				EAC4F0AFE109A1D10088635A509CA027 /* PBXTargetDependency */,
 			);
 			name = "Pods-MyRecipes";
 			productName = Pods_MyRecipes;
@@ -250,6 +344,24 @@
 			productReference = 6F19C207FF57A79C96CDD602E9A945BE /* CleanyModal */;
 			productType = "com.apple.product-type.framework";
 		};
+		DED4DEF356A163E50925101C3C7C0FB9 /* RAMAnimatedTabBarController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DED30F0DAE1AFE1FC0725F8A07B8D1F8 /* Build configuration list for PBXNativeTarget "RAMAnimatedTabBarController" */;
+			buildPhases = (
+				43859A317AD5A9AA74D781295CE5B79B /* Headers */,
+				717013483FF1E8E161BB9BE8BF235360 /* Sources */,
+				8C8BC72110197A87D9E2C15B8C67773E /* Frameworks */,
+				46FCD5B237DE572E0477941498FC05F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RAMAnimatedTabBarController;
+			productName = RAMAnimatedTabBarController;
+			productReference = 6803A26D713572B4FCF211333F946956 /* RAMAnimatedTabBarController */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -268,12 +380,13 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = B0F749BFD9C80F03F9A8E8356DD44C33 /* Products */;
+			productRefGroup = 17612BC65D24EE670FDA9C7A79D024A1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				9C45A829CDBA420E188ABC8136AA36AF /* CleanyModal */,
 				009BC4CD4F84BE81CFB05306F5E05338 /* Pods-MyRecipes */,
+				DED4DEF356A163E50925101C3C7C0FB9 /* RAMAnimatedTabBarController */,
 			);
 		};
 /* End PBXProject section */
@@ -286,7 +399,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4D0657B088BEA25E64201E18DD91C6E0 /* Resources */ = {
+		46FCD5B237DE572E0477941498FC05F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51F6C7567D824C8BE0A0727ED3E04E45 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -314,27 +434,52 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7E13DFC09BF708A0A459310EC98ECC42 /* Sources */ = {
+		717013483FF1E8E161BB9BE8BF235360 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				822C336C56ACBAF56F493D1D5B71E953 /* Pods-MyRecipes-dummy.m in Sources */,
+				AB0C4E1D3ED74455A4C634ACC6ECBCAC /* Collection+Extensions.swift in Sources */,
+				5AED62FF7E4E3389A262D1356A561A1F /* RAMAnimatedTabBarController.swift in Sources */,
+				646080CE42644581AA769604AB3286C6 /* RAMAnimatedTabBarController+BottomLine.swift in Sources */,
+				17646EF4201DF64092E10A3AAF7C10CF /* RAMAnimatedTabBarController-dummy.m in Sources */,
+				12BEDAC8CB75C1A865921CD352C8CAA1 /* RAMAnimatedTabBarItem.swift in Sources */,
+				56E22C707C8EE00926021E660E657F52 /* RAMBadge.swift in Sources */,
+				9D33C39EC40AFC70E5E46477D0AA5FE7 /* RAMBounceAnimation.swift in Sources */,
+				F665C239323B7E4B154F93FBFE7F8062 /* RAMFrameItemAnimation.swift in Sources */,
+				440EE52A960CD3385A8180D8E05E951B /* RAMFumeAnimation.swift in Sources */,
+				BB66AF0EEACC796ADF43337BE166F30E /* RAMItemAnimationProtocol.swift in Sources */,
+				A24764066D04C97F83386D5BA18DA819 /* RAMRotationAnimation.swift in Sources */,
+				078CF1715E560310C7EF03E17F5DF42D /* RAMTransitionItemAnimations.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73F6DED53D0369C6BFCADFB0EB4C4AAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EC7D7FB3840A9B8693CE1D3F4E40179 /* Pods-MyRecipes-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		24DFF35B1DDB628272451816EE9D77EA /* PBXTargetDependency */ = {
+		861596A7428757193B7B6C4372595F54 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CleanyModal;
 			target = 9C45A829CDBA420E188ABC8136AA36AF /* CleanyModal */;
-			targetProxy = 6F4C0F761303C832DD9AD900C076BAB9 /* PBXContainerItemProxy */;
+			targetProxy = 20BF6BD7B6E7CDC7AE403D48780EE2C2 /* PBXContainerItemProxy */;
+		};
+		EAC4F0AFE109A1D10088635A509CA027 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RAMAnimatedTabBarController;
+			target = DED4DEF356A163E50925101C3C7C0FB9 /* RAMAnimatedTabBarController */;
+			targetProxy = 76F0ED6171516781DAEC3F41CD99FB07 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		4AFAD82D190F8BCD2C1B13E0D137E257 /* Release */ = {
+		172162779D69EDD7541CE8D1B0618A83 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A98F8CB56B5436C71FF66B59ED554D01 /* Pods-MyRecipes.release.xcconfig */;
 			buildSettings = {
@@ -365,6 +510,112 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		544FA9B71766493681557D5BF9116396 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F951E2FB401E43376FC0CB9707F9A6A2 /* RAMAnimatedTabBarController.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RAMAnimatedTabBarController/RAMAnimatedTabBarController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RAMAnimatedTabBarController/RAMAnimatedTabBarController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/RAMAnimatedTabBarController/RAMAnimatedTabBarController.modulemap";
+				PRODUCT_MODULE_NAME = RAMAnimatedTabBarController;
+				PRODUCT_NAME = RAMAnimatedTabBarController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5E19FA0FA4F26CDC49A94E97F38DE0E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30717F38269F3F308C70B62C5855FE42 /* Pods-MyRecipes.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MyRecipes/Pods-MyRecipes-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MyRecipes/Pods-MyRecipes.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		792BF7B6DAE90C58398964D2ACCFE131 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FDDE0A9F3FDF09F85CB61ADED7BC3F9 /* RAMAnimatedTabBarController.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RAMAnimatedTabBarController/RAMAnimatedTabBarController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RAMAnimatedTabBarController/RAMAnimatedTabBarController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/RAMAnimatedTabBarController/RAMAnimatedTabBarController.modulemap";
+				PRODUCT_MODULE_NAME = RAMAnimatedTabBarController;
+				PRODUCT_NAME = RAMAnimatedTabBarController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -502,7 +753,7 @@
 		};
 		9F0063B52D1A0A9B9C82CA94D0118B98 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4184B9A987F38A567B7CCB23794C3B72 /* CleanyModal.release.xcconfig */;
+			baseConfigurationReference = 12AECF5FB5200750E5C0997708744305 /* CleanyModal.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -535,46 +786,9 @@
 			};
 			name = Release;
 		};
-		B6199FB72E113F337D7C126022974772 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 30717F38269F3F308C70B62C5855FE42 /* Pods-MyRecipes.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-MyRecipes/Pods-MyRecipes-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MyRecipes/Pods-MyRecipes.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		DD60CFC3528CBE32C6D14C2D7E7B8A80 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3E2140627BC629F1DDB4BC567EF76A13 /* CleanyModal.debug.xcconfig */;
+			baseConfigurationReference = CA101AD18DD32059120FC4AE3742573C /* CleanyModal.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -609,15 +823,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		094A5C93B6189B37113AB77F2BC24D6C /* Build configuration list for PBXNativeTarget "Pods-MyRecipes" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B6199FB72E113F337D7C126022974772 /* Debug */,
-				4AFAD82D190F8BCD2C1B13E0D137E257 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		1EE653336E6D67CA8B181F79F97E5FEF /* Build configuration list for PBXNativeTarget "CleanyModal" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -627,11 +832,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		301A7E6D2598412771C2688DAD9B02BB /* Build configuration list for PBXNativeTarget "Pods-MyRecipes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E19FA0FA4F26CDC49A94E97F38DE0E3 /* Debug */,
+				172162779D69EDD7541CE8D1B0618A83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */,
 				9553C89E183877A5CB2F3C6801BEC129 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DED30F0DAE1AFE1FC0725F8A07B8D1F8 /* Build configuration list for PBXNativeTarget "RAMAnimatedTabBarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				544FA9B71766493681557D5BF9116396 /* Debug */,
+				792BF7B6DAE90C58398964D2ACCFE131 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

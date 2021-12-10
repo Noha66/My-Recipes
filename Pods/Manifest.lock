@@ -1,16 +1,20 @@
 PODS:
   - CleanyModal (1.0.3)
+  - RAMAnimatedTabBarController (5.2.0)
 
 DEPENDENCIES:
   - CleanyModal
+  - RAMAnimatedTabBarController
 
 SPEC REPOS:
   trunk:
     - CleanyModal
+    - RAMAnimatedTabBarController
 
 SPEC CHECKSUMS:
   CleanyModal: 5e5fece5b1de97b47ea091f6390ec2b16bfa2f20
+  RAMAnimatedTabBarController: 6863a386e7ae2ab227cd60aa73ab8ff56cdacfdd
 
-PODFILE CHECKSUM: f552951d54c77acfcaaf5080e0a2c677215e5cf5
+PODFILE CHECKSUM: 43eb798482a5099555251eb6f8bca559430c7446
 
 COCOAPODS: 1.11.2
