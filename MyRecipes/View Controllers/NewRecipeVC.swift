@@ -47,14 +47,18 @@ class NewRecipeVC: UIViewController {
         NotificationCenter.default.post(name: NSNotification.Name(rawValue: "newRecipeAdded"), object: nil, userInfo: ["newRecipeAdded" : newRecipe])
             
         //Shows alert after adding the recipe
-            let alert = UIAlertController(title: "تمت الإضافة", message: "لقد قمت بإضافة وصفة جديدة بنجاح", preferredStyle: UIAlertController.Style.alert)
-            let closeAlert = UIAlertAction(title: "حسنًا", style: UIAlertAction.Style.default) { _ in
+        let alert = MyAlertViewController(
+                title: "تمت الإضافة",
+                message: "لقد قمت بإضافة وصفة جديدة بنجاح",
+                imageName: "success")
+
+            alert.addAction(title: "حسنًا", style: .default) { CleanyAlertAction in
                 self.tabBarController?.selectedIndex = 0
                 self.recipeTitleTextField.text = ""
                 self.recipeDetailsTextView.text = ""
                 self.recipeImg.image = nil
             }
-            alert.addAction(closeAlert)
+
             present(alert, animated: true, completion: nil)
             
         }else{ //if it is an edited recipe
@@ -64,15 +68,20 @@ class NewRecipeVC: UIViewController {
             NotificationCenter.default.post(name: NSNotification.Name(rawValue: "currentRecipeEdited"), object: nil, userInfo: ["editedRecipe": recipe, "editedRecipeIndex": editedRecipeIndex!])
             
             //Shows alert after editing the recipe
-            let alert = UIAlertController(title: "تم التعديل", message: "لقد قمت بتعديل الوصفة بنجاح", preferredStyle: UIAlertController.Style.alert)
-            let closeAlert = UIAlertAction(title: "حسنًا", style: UIAlertAction.Style.default) { _ in
-                self.navigationController?.popViewController(animated: true)
-                self.recipeTitleTextField.text = ""
-                self.recipeDetailsTextView.text = ""
-                self.recipeImg.image = nil
-            }
-            alert.addAction(closeAlert)
-            present(alert, animated: true, completion: nil)
+            
+            let alert = MyAlertViewController(
+                    title: "تم التعديل",
+                    message: "لقد قمت بتعديل الوصفة بنجاح",
+                    imageName: "success")
+
+                alert.addAction(title: "حسنًا", style: .default) { CleanyAlertAction in
+                    self.navigationController?.popViewController(animated: true)
+                    self.recipeTitleTextField.text = ""
+                    self.recipeDetailsTextView.text = ""
+                    self.recipeImg.image = nil
+                }
+
+                present(alert, animated: true, completion: nil)
         }
     }
     

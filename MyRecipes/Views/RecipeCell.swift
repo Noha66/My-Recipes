@@ -11,7 +11,6 @@ class RecipeCell: UITableViewCell {
 
     @IBOutlet weak var recipeImg: UIImageView!
     @IBOutlet weak var recipeName: UILabel!
-    @IBOutlet weak var recipeDate: UILabel!
     @IBOutlet weak var recipeView: UIView!
     
     override func awakeFromNib() {
